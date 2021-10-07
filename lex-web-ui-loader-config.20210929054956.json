@@ -1,0 +1,66 @@
+{
+  "region": "us-east-1",
+  "cognito": {
+    "poolId": "us-east-1:dbd587c6-180c-4462-812c-3dc582558de5",
+    "appUserPoolClientId": "3ahnq034b7j01vco8v52qfn5n1",
+    "appUserPoolName": "us-east-1_51T8g525q",
+    "aws_cognito_region": "us-east-1",
+    "region": "us-east-1"
+  },
+  "connect": {
+    "contactFlowId": "",
+    "instanceId": "",
+    "apiGatewayEndpoint": "",
+    "promptForNameMessage": "Before starting a live chat, please tell me your name?",
+    "waitingForAgentMessage": "Thanks for waiting. An agent will be with you when available.",
+    "waitingForAgentMessageIntervalSeconds": "60"
+  },
+  "lex": {
+    "v2BotId": "",
+    "v2BotAliasId": "",
+    "v2BotLocaleId": "en_US",
+    "botName": "HRbotSimple",
+    "botAlias": "$LATEST",
+    "initialText": "How can I help you",
+    "initialSpeechInstruction": "Where is the office location?",
+    "initialUtterance": "",
+    "reInitSessionAttributesOnRestart": false,
+    "region": "us-east-1",
+    "retryOnLexPostTextTimeout": "false",
+    "retryCountPostTextTimeout": "1"
+  },
+  "ui": {
+    "parentOrigin": "https://ds-test-cors.s3.amazonaws.com",
+    "toolbarTitle": "People Buddy",
+    "toolbarLogo": "",
+    "positiveFeedbackIntent": "Thumbs up",
+    "negativeFeedbackIntent": "Thumbs down",
+    "helpIntent": "Help",
+    "enableLogin": false,
+    "enableLiveChat": false,
+    "forceLogin": false,
+    "AllowSuperDangerousHTMLInMessage": true,
+    "shouldDisplayResponseCardTitle": false,
+    "saveHistory": false,
+    "enableSFX": false,
+    "minButtonContent": "",
+    "hideInputFieldsForButtonResponse": false,
+    "pushInitialTextOnRestart": false,
+    "directFocusToBotInput": false,
+    "showDialogStateIcon": false,
+    "backButton": false,
+    "messageMenu": true,
+    "hideButtonMessageBubble": false
+  },
+  "polly": {
+    "voiceId": "Salli"
+  },
+  "recorder": {
+    "preset": "speech_recognition"
+  },
+  "iframe": {
+    "iframeOrigin": "https://d262e7lbkqgt0r.cloudfront.net",
+    "shouldLoadIframeMinimized": true,
+    "iframeSrcPath": "/index.html#/?lexWebUiEmbed=true"
+  }
+}
